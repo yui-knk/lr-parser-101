@@ -22,3 +22,7 @@ Rubyで書かれたLALR(1) パーサジェネレーター [Racc](https://github.
 * 参考文献や参考になるサイトをまとめる
   * RHG
 * Lexerについて説明する (chapter_7 or later)
+
+## ライセンス
+
+MIT License.
