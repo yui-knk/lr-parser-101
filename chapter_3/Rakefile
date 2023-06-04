@@ -1,0 +1,7 @@
+task default: :compile
+
+task :compile do
+  puts "Compiling parser ..."
+
+  `racc calc.y -o calc.rb`
+end
