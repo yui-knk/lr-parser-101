@@ -21,7 +21,7 @@ Rubyで書かれたLALR(1) パーサジェネレーター [Racc](https://github.
 ## TODO
 
 * 参考文献や参考になるサイトをまとめる
-  * RHG
+  * [『Ruby ソースコード完全解説　Ruby Hacking Guide』(RHG)](https://i.loveruby.net/ja/rhg/book/)
 * Lexerについて説明する (chapter_7 or later)
 
 ## ライセンス
