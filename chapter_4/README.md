@@ -122,6 +122,9 @@ end
 
 ヒント: `|` をつかって掛け算と同じところにルールを定義する。
 
+<details>
+<summary>解答例</summary>
+
 ```ruby
 rule
   program: expr { p "program is #{val[0]}. result is #{result}." }
@@ -141,6 +144,7 @@ rule
          ;
 end
 ```
+</details>
 
 ```shell
 $ rake

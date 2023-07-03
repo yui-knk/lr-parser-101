@@ -124,6 +124,9 @@ Bye!
 
 ヒント: `|` をつかって複数のルールを定義することができる。
 
+<details>
+<summary>解答例</summary>
+
 ```ruby
 rule
   program: NUMBER '+' NUMBER { p "#{val[0]} + #{val[2]} = #{val[0] + val[2]}" }
@@ -133,6 +136,7 @@ rule
 
 end
 ```
+</details>
 
 ```shell
 $ rake

@@ -243,6 +243,9 @@ expr: expr '+' term
 
 ヒント: `|` をつかって複数のルールを定義することができる。
 
+<details>
+<summary>解答例</summary>
+
 ```ruby
 rule
   program: expr { p "program is #{val[0]}. result is #{result}." }
@@ -257,6 +260,7 @@ rule
       ;
 end
 ```
+</details>
 
 ```shell
 $ rake
